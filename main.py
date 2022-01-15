@@ -1,7 +1,7 @@
 from pyowm.owm import OWM
 import time
 
-owm = OWM('f49b123dc74107df107f6d559cdd331b') # api key
+owm = OWM('YOUR API KEY') # api key
 registerCitys = owm.city_id_registry() # registre des villes
 weather_mgr = owm.weather_manager() # meteo
 
